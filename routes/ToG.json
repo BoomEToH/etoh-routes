@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "name": "Tower of Genesis",
+  "code": "ToG",
+  "defaultSpeed": 32,
+  "coordinateMode": "world",
+  "noclip": true,
+  "waypoints": []
+}
