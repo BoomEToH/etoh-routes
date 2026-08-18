@@ -1,1 +1,10 @@
-
+{
+  "version": 1,
+  "routes": [
+    {
+      "name": "Tower of Genesis",
+      "code": "ToG",
+      "file": "ToG.json"
+    }
+  ]
+}
