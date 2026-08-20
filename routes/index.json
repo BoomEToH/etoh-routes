@@ -1,10 +1,593 @@
 {
-  "version": 1,
+  "version": 2,
+  "generatedAt": "2026-08-20",
+  "categories": [
+    {
+      "id": "R0",
+      "name": "Ring 0: Purgatorio",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "R1",
+      "name": "Ring 1: Limbo",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "FR",
+      "name": "Forgotten Ridge",
+      "world": "The Great Inferno",
+      "categoryType": "subrealm",
+      "parent": "R1"
+    },
+    {
+      "id": "R2",
+      "name": "Ring 2: Desire",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    }
+  ],
   "routes": [
     {
-      "name": "Tower of Genesis",
       "code": "ToG",
-      "file": "ToG.json"
+      "name": "Tower of Genesis",
+      "file": "R0/ToG.json",
+      "category": "R0",
+      "group": "Introductory Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToME",
+      "name": "Tower of Motion Evolution",
+      "file": "R0/ToME.json",
+      "category": "R0",
+      "group": "Introductory Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToB",
+      "name": "Tower of Buttons",
+      "file": "R0/ToB.json",
+      "category": "R0",
+      "group": "Introductory Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToCD",
+      "name": "Tower of Critical Damage",
+      "file": "R0/ToCD.json",
+      "category": "R0",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToBM",
+      "name": "Tower of Boost Mayhem",
+      "file": "R0/ToBM.json",
+      "category": "R0",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToVP",
+      "name": "Tower of Various Pressures",
+      "file": "R0/ToVP.json",
+      "category": "R0",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToKP",
+      "name": "Tower of Kinetic Potential",
+      "file": "R0/ToKP.json",
+      "category": "R0",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToNSA",
+      "name": "Tower of No Strings Attached",
+      "file": "R0/ToNSA.json",
+      "category": "R0",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToKTS",
+      "name": "Tower of Keys To Success",
+      "file": "R0/ToKTS.json",
+      "category": "R0",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToDAN",
+      "name": "Tower of Dancing All Night",
+      "file": "R0/ToDAN.json",
+      "category": "R0",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "TNF",
+      "name": "Tower Not Found",
+      "file": "R0/TNF.json",
+      "category": "R0",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 11
+    },
+    {
+      "code": "CoV",
+      "name": "Citadel of Victory",
+      "file": "R0/CoV.json",
+      "category": "R0",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 12
+    },
+    {
+      "code": "PTR",
+      "name": "Purgatorio Tower Rush",
+      "file": "R0/PTR.json",
+      "category": "R0",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 13
+    },
+    {
+      "code": "ToAST",
+      "name": "Tower of A Simple Time",
+      "file": "R1/ToAST.json",
+      "category": "R1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToA",
+      "name": "Tower of Anger",
+      "file": "R1/ToA.json",
+      "category": "R1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToM",
+      "name": "Tower of Madness",
+      "file": "R1/ToM.json",
+      "category": "R1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToNI",
+      "name": "Tower of Noticeable Infuriation",
+      "file": "R1/ToNI.json",
+      "category": "R1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToH",
+      "name": "Tower of Hecc",
+      "file": "R1/ToH.json",
+      "category": "R1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToK",
+      "name": "Tower of Killjoys",
+      "file": "R1/ToK.json",
+      "category": "R1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToKY",
+      "name": "Tower of Keyboard Yeeting",
+      "file": "R1/ToKY.json",
+      "category": "R1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToS",
+      "name": "Tower of Stress",
+      "file": "R1/ToS.json",
+      "category": "R1",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToSP",
+      "name": "Tower of Screen Punching",
+      "file": "R1/ToSP.json",
+      "category": "R1",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToR",
+      "name": "Tower of Rage",
+      "file": "R1/ToR.json",
+      "category": "R1",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToIE",
+      "name": "Tower of Impossible Expectations",
+      "file": "R1/ToIE.json",
+      "category": "R1",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToTS",
+      "name": "Tower of True Skill",
+      "file": "R1/ToTS.json",
+      "category": "R1",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToIG",
+      "name": "Tower of Infinity Gauntlet",
+      "file": "R1/ToIG.json",
+      "category": "R1",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "NEAT",
+      "name": "Not Even A Tower",
+      "file": "R1/NEAT.json",
+      "category": "R1",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 14
+    },
+    {
+      "code": "CoLS",
+      "name": "Citadel of Laptop Splitting",
+      "file": "R1/CoLS.lua",
+      "category": "R1",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 15
+    },
+    {
+      "code": "ToSP:SE",
+      "name": "Tower of Screen Punching: Secret Ending",
+      "file": "R1/ToSP:SE.json",
+      "category": "R1",
+      "group": "Secrets",
+      "type": "secret-ending",
+      "order": 16,
+      "baseCode": "ToSP"
+    },
+    {
+      "code": "CoLS:SE",
+      "name": "Citadel of Laptop Splitting: Secret Route",
+      "file": "R1/CoLS:SE.lua",
+      "category": "R1",
+      "group": "Secrets",
+      "type": "secret-route",
+      "order": 17,
+      "baseCode": "CoLS"
+    },
+    {
+      "code": "R1TR",
+      "name": "Ring 1 Tower Rush",
+      "file": "R1/R1TR.json",
+      "category": "R1",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 18
+    },
+    {
+      "code": "SoMD",
+      "name": "Steeple of Meaningless Decisions",
+      "file": "FR/SoMD.lua",
+      "category": "FR",
+      "group": "Beginner Towers/Steeples",
+      "type": "steeple",
+      "order": 1
+    },
+    {
+      "code": "ToJGF",
+      "name": "Tower of Jolly Good Fun",
+      "file": "FR/ToJGF.lua",
+      "category": "FR",
+      "group": "Beginner Towers/Steeples",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "SoLW",
+      "name": "Steeple of Low Woe",
+      "file": "FR/SoLW.lua",
+      "category": "FR",
+      "group": "Beginner Towers/Steeples",
+      "type": "steeple",
+      "order": 3
+    },
+    {
+      "code": "SoP",
+      "name": "Steeple of Pursuit",
+      "file": "FR/SoP.lua",
+      "category": "FR",
+      "group": "Beginner Towers/Steeples",
+      "type": "steeple",
+      "order": 4
+    },
+    {
+      "code": "SoUR",
+      "name": "Steeple of Uninstalling Roblox",
+      "file": "FR/SoUR.lua",
+      "category": "FR",
+      "group": "Intermediate Towers/Steeples",
+      "type": "steeple",
+      "order": 5
+    },
+    {
+      "code": "ToII",
+      "name": "Tower of Immense Ire",
+      "file": "FR/ToII.lua",
+      "category": "FR",
+      "group": "Intermediate Towers/Steeples",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "SoWP",
+      "name": "Steeple of Wall Punching",
+      "file": "FR/SoWP.lua",
+      "category": "FR",
+      "group": "Intermediate Towers/Steeples",
+      "type": "steeple",
+      "order": 7
+    },
+    {
+      "code": "ToV",
+      "name": "Tower of Versatility",
+      "file": "FR/ToV.lua",
+      "category": "FR",
+      "group": "Intermediate Towers/Steeples",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToTC",
+      "name": "Tower of Triangular Covering",
+      "file": "FR/ToTC.lua",
+      "category": "FR",
+      "group": "Advanced Towers/Steeples",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "SoC",
+      "name": "Steeple of Climbing",
+      "file": "FR/SoC.lua",
+      "category": "FR",
+      "group": "Advanced Towers/Steeples",
+      "type": "steeple",
+      "order": 10
+    },
+    {
+      "code": "SoHP",
+      "name": "Steeple of Huge Pain",
+      "file": "FR/SoHP.lua",
+      "category": "FR",
+      "group": "Advanced Towers/Steeples",
+      "type": "steeple",
+      "order": 11
+    },
+    {
+      "code": "ToIS",
+      "name": "Tower of Increasing Stress",
+      "file": "FR/ToIS.lua",
+      "category": "FR",
+      "group": "Psychologically Unsafe Towers/Steeples",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToDE",
+      "name": "Tower of Dangerous Expeditions",
+      "file": "FR/ToDE.lua",
+      "category": "FR",
+      "group": "Psychologically Unsafe Towers/Steeples",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "SoTP",
+      "name": "Steeple of Towering Pillars",
+      "file": "FR/SoTP.lua",
+      "category": "FR",
+      "group": "Psychologically Unsafe Towers/Steeples",
+      "type": "steeple",
+      "order": 14
+    },
+    {
+      "code": "ToMB",
+      "name": "Tower of Mind Breaking",
+      "file": "FR/ToMB.lua",
+      "category": "FR",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 15
+    },
+    {
+      "code": "TIPAT",
+      "name": "This Is Probably A Tower",
+      "file": "FR/TIPAT.lua",
+      "category": "FR",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 16
+    },
+    {
+      "code": "CoWN",
+      "name": "Citadel of Weird Nostalgia",
+      "file": "FR/CoWN.lua",
+      "category": "FR",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 17
+    },
+    {
+      "code": "ToPS",
+      "name": "Tower of Phone Snapping",
+      "file": "R2/ToPS.json",
+      "category": "R2",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToBH",
+      "name": "Tower of Big Hole",
+      "file": "R2/ToBH.json",
+      "category": "R2",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToOH",
+      "name": "Tower of Overcoming Hatred",
+      "file": "R2/ToOH.json",
+      "category": "R2",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToCH",
+      "name": "Tower of Cold Hands",
+      "file": "R2/ToCH.json",
+      "category": "R2",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToFaF",
+      "name": "Tower of Falling and Failing",
+      "file": "R2/ToFaF.json",
+      "category": "R2",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToT",
+      "name": "Tower of Traps",
+      "file": "R2/ToT.json",
+      "category": "R2",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToDD",
+      "name": "Tower of Deep Darkness",
+      "file": "R2/ToDD.json",
+      "category": "R2",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToSD",
+      "name": "Tower of Shattered Dreams",
+      "file": "R2/ToSD.json",
+      "category": "R2",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToTF",
+      "name": "Tower of Table Flipping",
+      "file": "R2/ToTF.lua",
+      "category": "R2",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToES",
+      "name": "Tower of Eternal Suffering",
+      "file": "R2/ToES.json",
+      "category": "R2",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToDC",
+      "name": "Tower of Difficulty Chart",
+      "file": "R2/ToDC.json",
+      "category": "R2",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "MAT",
+      "name": "Maybe A Tower",
+      "file": "R2/MAT.json",
+      "category": "R2",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 12
+    },
+    {
+      "code": "CoWS",
+      "name": "Citadel of Wacky Strategy",
+      "file": "R2/CoWS.lua",
+      "category": "R2",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 13
+    },
+    {
+      "code": "R2TR",
+      "name": "Ring 2 Tower Rush",
+      "file": "R2/R2TR.json",
+      "category": "R2",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 14
     }
   ]
 }
