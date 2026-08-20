@@ -26,6 +26,225 @@
       "name": "Ring 2: Desire",
       "world": "The Great Inferno",
       "categoryType": "realm"
+    },
+    {
+      "id": "R3",
+      "name": "Ring 3: Gluttony",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "R4",
+      "name": "Ring 4: Greed",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "SA",
+      "name": "Silent Abyss",
+      "world": "The Great Inferno",
+      "categoryType": "subrealm",
+      "parent": "R4"
+    },
+    {
+      "id": "R5",
+      "name": "Ring 5: Wrath",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "LR",
+      "name": "Lost River",
+      "world": "The Great Inferno",
+      "categoryType": "subrealm",
+      "parent": "R5"
+    },
+    {
+      "id": "R6",
+      "name": "Ring 6: Heresy",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "AT",
+      "name": "Ashen Towerworks",
+      "world": "The Great Inferno",
+      "categoryType": "subrealm",
+      "parent": "R6"
+    },
+    {
+      "id": "R7",
+      "name": "Ring 7: Violence",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "HD",
+      "name": "Heccfire Depths",
+      "world": "The Great Inferno",
+      "categoryType": "event",
+      "parent": "R6"
+    },
+    {
+      "id": "R8",
+      "name": "Ring 8: Fraud",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "R9",
+      "name": "Ring 9: Treachery",
+      "world": "The Great Inferno",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z1",
+      "name": "Zone 1: Sea",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "SH",
+      "name": "Steelspire Horizon",
+      "world": "Spatial System",
+      "categoryType": "subrealm",
+      "parent": "Z1"
+    },
+    {
+      "id": "Z2",
+      "name": "Zone 2: Surface",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "AA",
+      "name": "Arcane Area",
+      "world": "Spatial System",
+      "categoryType": "subrealm",
+      "parent": "Z2"
+    },
+    {
+      "id": "Z3",
+      "name": "Zone 3: Sky",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "PA",
+      "name": "Paradise Atoll",
+      "world": "Spatial System",
+      "categoryType": "subrealm",
+      "parent": "Z3"
+    },
+    {
+      "id": "Z4",
+      "name": "Zone 4: Exosphere",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z5",
+      "name": "Zone 5: The Moon",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z6",
+      "name": "Zone 6: Mars",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z7",
+      "name": "Zone 7: Asteroid Belt",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z8",
+      "name": "Zone 8: Pluto",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z9",
+      "name": "Zone 9: Singularity",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "Z10",
+      "name": "Zone 10: Interstellar Shore",
+      "world": "Spatial System",
+      "categoryType": "realm"
+    },
+    {
+      "id": "100MER",
+      "name": "100M Event Replay",
+      "world": "Events",
+      "categoryType": "event",
+      "parent": "R1"
+    },
+    {
+      "id": "B",
+      "name": "BIOUMS",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "EF",
+      "name": "Elysian Fields",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "LF",
+      "name": "Legacy Fortress",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "SoM",
+      "name": "Summit of Memories",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "TDH",
+      "name": "The Doghouse",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "TEA",
+      "name": "The Eternal Abyss",
+      "world": "The Eternal Abyss",
+      "categoryType": "subrealm"
+    },
+    {
+      "id": "TM",
+      "name": "Timeless Manor",
+      "world": "The Eternal Abyss",
+      "categoryType": "subrealm",
+      "parent": "TEA"
+    },
+    {
+      "id": "XLR1",
+      "name": "XL Ring 1",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "XLR3",
+      "name": "XL Ring 3",
+      "world": "Events",
+      "categoryType": "event"
+    },
+    {
+      "id": "XLR5",
+      "name": "XL Ring 5",
+      "world": "Events",
+      "categoryType": "event"
     }
   ],
   "routes": [
@@ -588,6 +807,2220 @@
       "group": "Tower Rush",
       "type": "tower-rush",
       "order": 14
+    },
+    {
+      "code": "ToFT",
+      "name": "Tower of Funny Thoughts",
+      "file": "R3/ToFT.lua",
+      "category": "R3",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToIC",
+      "name": "Tower of Inverted Colors",
+      "file": "R3/ToIC.lua",
+      "category": "R3",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToAT",
+      "name": "Tower of Ancient Trickery",
+      "file": "R3/ToAT.lua",
+      "category": "R3",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToDS",
+      "name": "Tower of Deep Sighing",
+      "file": "R3/ToDS.lua",
+      "category": "R3",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToF",
+      "name": "Tower of Fatness",
+      "file": "R3/ToF.lua",
+      "category": "R3",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToWER",
+      "name": "Tower of Winning Every Run",
+      "file": "R3/ToWER.lua",
+      "category": "R3",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToSI",
+      "name": "Tower of Slight Inconvenience",
+      "file": "R3/ToSI.lua",
+      "category": "R3",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToWH",
+      "name": "Tower of Wall Hugging",
+      "file": "R3/ToWH.lua",
+      "category": "R3",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToLD",
+      "name": "Tower of Lotsa Damage",
+      "file": "R3/ToLD.lua",
+      "category": "R3",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToD",
+      "name": "Tower of Despair",
+      "file": "R3/ToD.lua",
+      "category": "R3",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToC",
+      "name": "Tower of Confusion",
+      "file": "R3/ToC.lua",
+      "category": "R3",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "TAT",
+      "name": "Totally A Tower",
+      "file": "R3/TAT.lua",
+      "category": "R3",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 12
+    },
+    {
+      "code": "CoHaD",
+      "name": "Citadel of Heights and Depths",
+      "file": "R3/CoHaD.lua",
+      "category": "R3",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 13
+    },
+    {
+      "code": "R3TR",
+      "name": "Ring 3 Tower Rush",
+      "file": "R3/R3TR.lua",
+      "category": "R3",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 14
+    },
+    {
+      "code": "ToSH",
+      "name": "Tower of Spiralling Heights",
+      "file": "R4/ToSH.lua",
+      "category": "R4",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToGG",
+      "name": "Tower of Getting Gnomed",
+      "file": "R4/ToGG.lua",
+      "category": "R4",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToTM",
+      "name": "Tower of Terrible Mondays",
+      "file": "R4/ToTM.lua",
+      "category": "R4",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToE",
+      "name": "Tower of Elysium",
+      "file": "R4/ToE.lua",
+      "category": "R4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToL",
+      "name": "Tower of Linonophobia",
+      "file": "R4/ToL.lua",
+      "category": "R4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToLL",
+      "name": "Tower of Leaning Ledges",
+      "file": "R4/ToLL.lua",
+      "category": "R4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToDaD",
+      "name": "Tower of Dust and Decay",
+      "file": "R4/ToDaD.lua",
+      "category": "R4",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToHF",
+      "name": "Tower of Holy Flip",
+      "file": "R4/ToHF.lua",
+      "category": "R4",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToO",
+      "name": "Tower of Oblivion",
+      "file": "R4/ToO.lua",
+      "category": "R4",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToNP",
+      "name": "Tower of Nonsensical Platforms",
+      "file": "R4/ToNP.lua",
+      "category": "R4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToCN",
+      "name": "Tower of Corrupted Nightmares",
+      "file": "R4/ToCN.lua",
+      "category": "R4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToVS",
+      "name": "Tower of Vivid Sections",
+      "file": "R4/ToVS.lua",
+      "category": "R4",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToI",
+      "name": "Tower of Inception",
+      "file": "R4/ToI.lua",
+      "category": "R4",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "WBAT",
+      "name": "Will Be A Tower",
+      "file": "R4/WBAT.lua",
+      "category": "R4",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 14
+    },
+    {
+      "code": "CoU",
+      "name": "Citadel of Uneasiness",
+      "file": "R4/CoU.lua",
+      "category": "R4",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 15
+    },
+    {
+      "code": "R4TR",
+      "name": "Ring 4 Tower Rush",
+      "file": "R4/R4TR.lua",
+      "category": "R4",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 16
+    },
+    {
+      "code": "ToTINT",
+      "name": "Tower of There Is No Tower",
+      "file": "SA/ToTINT.lua",
+      "category": "SA",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "SoMA",
+      "name": "Steeple of Midnight Acropolis",
+      "file": "SA/SoMA.lua",
+      "category": "SA",
+      "group": "Psychologically Unsafe Towers",
+      "type": "steeple",
+      "order": 2
+    },
+    {
+      "code": "SoMB",
+      "name": "Steeple of Malignant Blight",
+      "file": "SA/SoMB.lua",
+      "category": "SA",
+      "group": "Soul Crushing Tower",
+      "type": "steeple",
+      "order": 3
+    },
+    {
+      "code": "ToNV",
+      "name": "Tower of Nice Views",
+      "file": "R5/ToNV.lua",
+      "category": "R5",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToTR",
+      "name": "Tower of Trivial Resentment",
+      "file": "R5/ToTR.lua",
+      "category": "R5",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToRS",
+      "name": "Tower of Rigid Success",
+      "file": "R5/ToRS.lua",
+      "category": "R5",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToDM",
+      "name": "Tower of Downward Mobility",
+      "file": "R5/ToDM.lua",
+      "category": "R5",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToOC",
+      "name": "Tower of Obvious Chaos",
+      "file": "R5/ToOC.lua",
+      "category": "R5",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToFF",
+      "name": "Tower of Floral Fury",
+      "file": "R5/ToFF.lua",
+      "category": "R5",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToEA",
+      "name": "Tower of Extraordinary Adventures",
+      "file": "R5/ToEA.lua",
+      "category": "R5",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToTH",
+      "name": "Tower of Tokyo Heights",
+      "file": "R5/ToTH.lua",
+      "category": "R5",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToGaH",
+      "name": "Tower of Glitching and Healing",
+      "file": "R5/ToGaH.lua",
+      "category": "R5",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToFO",
+      "name": "Tower of Fractured Obstacles",
+      "file": "R5/ToFO.lua",
+      "category": "R5",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToIB",
+      "name": "Tower of Icy Blizzards",
+      "file": "R5/ToIB.lua",
+      "category": "R5",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToFN",
+      "name": "Tower of Frightening Nightmares",
+      "file": "R5/ToFN.lua",
+      "category": "R5",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "LAT",
+      "name": "Likely A Tower",
+      "file": "R5/LAT.lua",
+      "category": "R5",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 13
+    },
+    {
+      "code": "CoCR",
+      "name": "Citadel of Contrasting Regions",
+      "file": "R5/CoCR.lua",
+      "category": "R5",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 14
+    },
+    {
+      "code": "R5TR",
+      "name": "Ring 5 Tower Rush",
+      "file": "R5/R5TR.lua",
+      "category": "R5",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 15
+    },
+    {
+      "code": "R14MTR",
+      "name": "Rings 1-4 Mini Tower Rush",
+      "file": "R5/R14MTR.lua",
+      "category": "R5",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 16
+    },
+    {
+      "code": "ToEW",
+      "name": "Tower of Excessive Weirdness",
+      "file": "LR/ToEW.lua",
+      "category": "LR",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToTST",
+      "name": "Tower of Two Sided Troubles",
+      "file": "LR/ToTST.lua",
+      "category": "LR",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToLOZ",
+      "name": "Tower of Losing Our Zeal",
+      "file": "LR/ToLOZ.lua",
+      "category": "LR",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToDL",
+      "name": "Tower of Diverging Layers",
+      "file": "LR/ToDL.lua",
+      "category": "LR",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToOO",
+      "name": "Tower of Odd Odyssey",
+      "file": "LR/ToOO.lua",
+      "category": "LR",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToWaW",
+      "name": "Tower of Witchcraft and Wizardry",
+      "file": "LR/ToWaW.lua",
+      "category": "LR",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToCS",
+      "name": "Tower of Compact Spaces",
+      "file": "LR/ToCS.lua",
+      "category": "LR",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToTEM",
+      "name": "Tower of Tallying Every Mistake",
+      "file": "LR/ToTEM.lua",
+      "category": "LR",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToTJ",
+      "name": "Tower of Triple Jeopardy",
+      "file": "LR/ToTJ.lua",
+      "category": "LR",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToUH",
+      "name": "Tower of Unsettling Heights",
+      "file": "LR/ToUH.lua",
+      "category": "LR",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "CoIS",
+      "name": "Citadel of Inside Situations",
+      "file": "LR/CoIS.lua",
+      "category": "LR",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 11
+    },
+    {
+      "code": "LRTR",
+      "name": "Lost River Tower Rush",
+      "file": "LR/LRTR.lua",
+      "category": "LR",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 12
+    },
+    {
+      "code": "ToFJ",
+      "name": "Tower of Friendly Jumps",
+      "file": "R6/ToFJ.lua",
+      "category": "R6",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToEP",
+      "name": "Tower of Environmental Pain",
+      "file": "R6/ToEP.lua",
+      "category": "R6",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToRR",
+      "name": "Tower of Radiant Realms",
+      "file": "R6/ToRR.lua",
+      "category": "R6",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToTI",
+      "name": "Tower of Twisted Inquisition",
+      "file": "R6/ToTI.lua",
+      "category": "R6",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToISC",
+      "name": "Tower of Intense Solar Chaos",
+      "file": "R6/ToISC.lua",
+      "category": "R6",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToN",
+      "name": "Tower of Niflheim",
+      "file": "R6/ToN.lua",
+      "category": "R6",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToSM",
+      "name": "Tower of Strategic Mechanics",
+      "file": "R6/ToSM.lua",
+      "category": "R6",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToIM",
+      "name": "Tower of Impossible Movement",
+      "file": "R6/ToIM.lua",
+      "category": "R6",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "CoSR",
+      "name": "Citadel of Scythe Recognition",
+      "file": "R6/CoSR.lua",
+      "category": "R6",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 9
+    },
+    {
+      "code": "ToFZ",
+      "name": "Tower of Fruity Zeal",
+      "file": "AT/ToFZ.lua",
+      "category": "AT",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToVT",
+      "name": "Tower of Viaduct Traversing",
+      "file": "AT/ToVT.lua",
+      "category": "AT",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToCWC",
+      "name": "Tower of Corner Wedge Climbing",
+      "file": "AT/ToCWC.lua",
+      "category": "AT",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToWMT",
+      "name": "Tower of Wanting More Time",
+      "file": "AT/ToWMT.lua",
+      "category": "AT",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToSR",
+      "name": "Tower of Shadowy Radiance",
+      "file": "AT/ToSR.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToWIA",
+      "name": "Tower of Whisking It All",
+      "file": "AT/ToWIA.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToWoW",
+      "name": "Tower of Whirl of Winds",
+      "file": "AT/ToWoW.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToLLL",
+      "name": "Tower of Largely Limited Luminance",
+      "file": "AT/ToLLL.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToFSF",
+      "name": "Tower of Forever-Sleeping Flower",
+      "file": "AT/ToFSF.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToCB",
+      "name": "Tower of Climactic Beats",
+      "file": "AT/ToCB.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToRH",
+      "name": "Tower of Rhythm Heaven",
+      "file": "AT/ToRH.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToMD",
+      "name": "Tower of Mechanical Disarray",
+      "file": "AT/ToMD.lua",
+      "category": "AT",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToWF",
+      "name": "Tower of Wicked Fortress",
+      "file": "AT/ToWF.lua",
+      "category": "AT",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "ATwTR",
+      "name": "Ashen Towerworks Tower Rush",
+      "file": "AT/ATwTR.lua",
+      "category": "AT",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 14
+    },
+    {
+      "code": "ToEH",
+      "name": "Tower of Extreme Hell",
+      "file": "R7/ToEH.lua",
+      "category": "R7",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToTB",
+      "name": "Tower of Terrifying Beauty",
+      "file": "R7/ToTB.lua",
+      "category": "R7",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToER",
+      "name": "Tower of Elongated Runs",
+      "file": "R7/ToER.lua",
+      "category": "R7",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "FFAST",
+      "name": "Far From A Surprising Tower",
+      "file": "R7/FFAST.lua",
+      "category": "R7",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 4
+    },
+    {
+      "code": "CoTE",
+      "name": "Citadel of True Exasperation",
+      "file": "R7/CoTE.lua",
+      "category": "R7",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 5
+    },
+    {
+      "code": "SoRP",
+      "name": "Steeple of Retina Pain",
+      "file": "HD/SoRP.lua",
+      "category": "HD",
+      "group": "Steeples",
+      "type": "steeple",
+      "order": 1
+    },
+    {
+      "code": "ToGF",
+      "name": "Tower of Generation Failure",
+      "file": "R8/ToGF.lua",
+      "category": "R8",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToGO",
+      "name": "Tower of Great Overcomings",
+      "file": "R9/ToGO.lua",
+      "category": "R9",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToBBB",
+      "name": "Tower of Beat Block Berserk",
+      "file": "R9/ToBBB.lua",
+      "category": "R9",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToQT",
+      "name": "Tower of Questionable Trials",
+      "file": "R9/ToQT.lua",
+      "category": "R9",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToPP",
+      "name": "Tower of Pastel Pillars",
+      "file": "R9/ToPP.lua",
+      "category": "R9",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToHA",
+      "name": "Tower of High Adrenaline",
+      "file": "R9/ToHA.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToBT",
+      "name": "Tower of Bent Trauma",
+      "file": "R9/ToBT.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToCA",
+      "name": "Tower of Curved Ascent",
+      "file": "R9/ToCA.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToFaCT",
+      "name": "Tower of Frightening and Confusing Trials",
+      "file": "R9/ToFaCT.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToBK",
+      "name": "Tower of Bloodthirsty Kenos",
+      "file": "R9/ToBK.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToJE",
+      "name": "Tower of Journey's End",
+      "file": "R9/ToJE.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToNS",
+      "name": "Tower of Nervous Sweating",
+      "file": "R9/ToNS.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToAM",
+      "name": "Tower of Augmented Misery",
+      "file": "R9/ToAM.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToCR",
+      "name": "Tower of Champion's Road",
+      "file": "R9/ToCR.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "ToCP",
+      "name": "Tower of Cruel Punishment",
+      "file": "R9/ToCP.lua",
+      "category": "R9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 14
+    },
+    {
+      "code": "CoL",
+      "name": "Citadel of Lethargy",
+      "file": "R9/CoL.lua",
+      "category": "R9",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 15
+    },
+    {
+      "code": "R9TR",
+      "name": "Ring 9 Tower Rush",
+      "file": "R9/R9TR.lua",
+      "category": "R9",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 16
+    },
+    {
+      "code": "ToZD",
+      "name": "Tower of Zero Disturbances",
+      "file": "Z1/ToZD.lua",
+      "category": "Z1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToPHaT",
+      "name": "Tower of Peaceful Happiness and Tranquility",
+      "file": "Z1/ToPHaT.lua",
+      "category": "Z1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToAD",
+      "name": "Tower of Atlantic Depths",
+      "file": "Z1/ToAD.lua",
+      "category": "Z1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToP",
+      "name": "Tower of Peace",
+      "file": "Z1/ToP.lua",
+      "category": "Z1",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToHS",
+      "name": "Tower of Hands Sweating",
+      "file": "Z1/ToHS.lua",
+      "category": "Z1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToMH",
+      "name": "Tower of Mirrored Hecc",
+      "file": "Z1/ToMH.lua",
+      "category": "Z1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToCO",
+      "name": "Tower of Contractual Obligations",
+      "file": "Z1/ToCO.lua",
+      "category": "Z1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToYS",
+      "name": "Tower of Yearning Success",
+      "file": "Z1/ToYS.lua",
+      "category": "Z1",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToAV",
+      "name": "Tower of Absolute Vexation",
+      "file": "Z1/ToAV.lua",
+      "category": "Z1",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToWEL",
+      "name": "Tower of Wanting Extra Levels",
+      "file": "Z1/ToWEL.lua",
+      "category": "Z1",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToUT",
+      "name": "Tower of Ultimately Terrifying",
+      "file": "Z1/ToUT.lua",
+      "category": "Z1",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToED",
+      "name": "Tower of Extreme Dystopia",
+      "file": "Z1/ToED.lua",
+      "category": "Z1",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToRNI",
+      "name": "Tower of Really Nasty Ideas",
+      "file": "Z1/ToRNI.lua",
+      "category": "Z1",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "ToZ",
+      "name": "Tower of Zespluz",
+      "file": "Z1/ToZ.lua",
+      "category": "Z1",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 14
+    },
+    {
+      "code": "ToTL",
+      "name": "Tower of Thinning Layers",
+      "file": "Z1/ToTL.lua",
+      "category": "Z1",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 15
+    },
+    {
+      "code": "SAT",
+      "name": "Somewhat A Tower",
+      "file": "Z1/SAT.lua",
+      "category": "Z1",
+      "group": "Mini Tower",
+      "type": "mini-tower",
+      "order": 16
+    },
+    {
+      "code": "CoP",
+      "name": "Citadel of Peril",
+      "file": "Z1/CoP.lua",
+      "category": "Z1",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 17
+    },
+    {
+      "code": "ToSL",
+      "name": "Tower of Sunshower Lambent",
+      "file": "SH/ToSL.lua",
+      "category": "SH",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToQR",
+      "name": "Tower of Quantum Rhythm",
+      "file": "SH/ToQR.lua",
+      "category": "SH",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToSaT",
+      "name": "Tower of Steel and Thunder",
+      "file": "SH/ToSaT.lua",
+      "category": "SH",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToFH",
+      "name": "Tower of Fly High",
+      "file": "SH/ToFH.lua",
+      "category": "SH",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToCBTS",
+      "name": "Tower of Calm Before The Storm",
+      "file": "SH/ToCBTS.lua",
+      "category": "SH",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToTFC",
+      "name": "Tower of Ten Floors Challenge",
+      "file": "SH/ToTFC.lua",
+      "category": "SH",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToVR",
+      "name": "Tower of Venomous Resonance",
+      "file": "Z2/ToVR.lua",
+      "category": "Z2",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToSA",
+      "name": "Tower of Slanted Anticipation",
+      "file": "Z2/ToSA.lua",
+      "category": "Z2",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToDT",
+      "name": "Tower of Double Trouble",
+      "file": "Z2/ToDT.lua",
+      "category": "Z2",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "SoBT",
+      "name": "Steeple of Biome Traversing",
+      "file": "AA/SoBT.lua",
+      "category": "AA",
+      "group": "Beginner Steeples",
+      "type": "steeple",
+      "order": 1
+    },
+    {
+      "code": "SoAS",
+      "name": "Steeple of Astounding Sorcery",
+      "file": "AA/SoAS.lua",
+      "category": "AA",
+      "group": "Beginner Steeples",
+      "type": "steeple",
+      "order": 2
+    },
+    {
+      "code": "SoAP",
+      "name": "Steeple of Atmospheric Powers",
+      "file": "AA/SoAP.lua",
+      "category": "AA",
+      "group": "Intermediate Steeples",
+      "type": "steeple",
+      "order": 3
+    },
+    {
+      "code": "SoRO",
+      "name": "Steeple of Realm Odyssey",
+      "file": "AA/SoRO.lua",
+      "category": "AA",
+      "group": "Intermediate Steeples",
+      "type": "steeple",
+      "order": 4
+    },
+    {
+      "code": "SoTC",
+      "name": "Steeple of Twisted Crystals",
+      "file": "AA/SoTC.lua",
+      "category": "AA",
+      "group": "Advanced Steeples",
+      "type": "steeple",
+      "order": 5
+    },
+    {
+      "code": "SoME",
+      "name": "Steeple of Magical Elements",
+      "file": "AA/SoME.lua",
+      "category": "AA",
+      "group": "Advanced Steeples",
+      "type": "steeple",
+      "order": 6
+    },
+    {
+      "code": "SoCA",
+      "name": "Steeple of Crystal Ascension",
+      "file": "AA/SoCA.lua",
+      "category": "AA",
+      "group": "Psychologically Unsafe Steeples",
+      "type": "steeple",
+      "order": 7
+    },
+    {
+      "code": "SoWC",
+      "name": "Steeple of Witch Calamity",
+      "file": "AA/SoWC.lua",
+      "category": "AA",
+      "group": "Psychologically Unsafe Steeples",
+      "type": "steeple",
+      "order": 8
+    },
+    {
+      "code": "SoMC",
+      "name": "Steeple of Magical Collaborations",
+      "file": "AA/SoMC.lua",
+      "category": "AA",
+      "group": "Psychologically Unsafe Steeples",
+      "type": "steeple",
+      "order": 9
+    },
+    {
+      "code": "ToIA",
+      "name": "Tower of Icy Adventures",
+      "file": "AA/ToIA.lua",
+      "category": "AA",
+      "group": "Tower",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "AATR",
+      "name": "Arcane Area Tower Rush",
+      "file": "AA/AATR.lua",
+      "category": "AA",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 11
+    },
+    {
+      "code": "ToOD",
+      "name": "Tower of Overestimating Difficulty",
+      "file": "Z3/ToOD.lua",
+      "category": "Z3",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToBB",
+      "name": "Tower of Broken Bricks",
+      "file": "Z3/ToBB.lua",
+      "category": "Z3",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToCOF",
+      "name": "Tower of Client Object Frenzy",
+      "file": "Z3/ToCOF.lua",
+      "category": "Z3",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToHH",
+      "name": "Tower of Hopeless Hell",
+      "file": "Z3/ToHH.lua",
+      "category": "Z3",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "CoTS",
+      "name": "Citadel of Tricky Situations",
+      "file": "Z3/CoTS.lua",
+      "category": "Z3",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 5
+    },
+    {
+      "code": "SoUV",
+      "name": "Steeple of Undersea Voyage",
+      "file": "PA/SoUV.lua",
+      "category": "PA",
+      "group": "Beginner Towers/Steeples",
+      "type": "steeple",
+      "order": 1
+    },
+    {
+      "code": "ToFSC",
+      "name": "Tower of Fairly Simple Challenges",
+      "file": "Z4/ToFSC.lua",
+      "category": "Z4",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToAC",
+      "name": "Tower of Aquatic Contemplation",
+      "file": "Z4/ToAC.lua",
+      "category": "Z4",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToFaST",
+      "name": "Tower of Fun and Simple Trials",
+      "file": "Z4/ToFaST.lua",
+      "category": "Z4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToUID",
+      "name": "Tower of Up Is Down",
+      "file": "Z4/ToUID.lua",
+      "category": "Z4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToET",
+      "name": "Tower of Elevator Travelling",
+      "file": "Z4/ToET.lua",
+      "category": "Z4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToWW",
+      "name": "Tower of Wicked Wedges",
+      "file": "Z4/ToWW.lua",
+      "category": "Z4",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToPC",
+      "name": "Tower of Pure Chroma",
+      "file": "Z4/ToPC.lua",
+      "category": "Z4",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToMIM",
+      "name": "Tower of Mechanically Induced Mayhem",
+      "file": "Z4/ToMIM.lua",
+      "category": "Z4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToSS",
+      "name": "Tower of Shifting Slopes",
+      "file": "Z4/ToSS.lua",
+      "category": "Z4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToDDD",
+      "name": "Tower of Dance Dance Destruction",
+      "file": "Z4/ToDDD.lua",
+      "category": "Z4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToFG",
+      "name": "Tower of Funky Grooves",
+      "file": "Z4/ToFG.lua",
+      "category": "Z4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToTV",
+      "name": "Tower of Tornado Vehemence",
+      "file": "Z4/ToTV.lua",
+      "category": "Z4",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToIF",
+      "name": "Tower of Inevitable Failure",
+      "file": "Z4/ToIF.lua",
+      "category": "Z4",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "ToAAA",
+      "name": "Tower of Astronomically Aimless Annoyances",
+      "file": "Z4/ToAAA.lua",
+      "category": "Z4",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 14
+    },
+    {
+      "code": "CoQ",
+      "name": "Citadel of Quadrilaterals",
+      "file": "Z4/CoQ.lua",
+      "category": "Z4",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 15
+    },
+    {
+      "code": "Z4TR",
+      "name": "Zone 4 Tower Rush",
+      "file": "Z4/Z4TR.lua",
+      "category": "Z4",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 16
+    },
+    {
+      "code": "ToPZ",
+      "name": "Tower of Polychromatic Zero",
+      "file": "Z5/ToPZ.lua",
+      "category": "Z5",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToAR",
+      "name": "Tower of Alien Radiance",
+      "file": "Z5/ToAR.lua",
+      "category": "Z5",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToMM",
+      "name": "Tower of Micro Management",
+      "file": "Z6/ToMM.lua",
+      "category": "Z6",
+      "group": "Soul Crushing Tower",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToJ",
+      "name": "Tower of Jazz",
+      "file": "Z7/ToJ.lua",
+      "category": "Z7",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToRW",
+      "name": "Tower of Rough Waters",
+      "file": "Z7/ToRW.lua",
+      "category": "Z7",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToSV",
+      "name": "Tower of Sweet Victory",
+      "file": "Z7/ToSV.lua",
+      "category": "Z7",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToBR",
+      "name": "Tower of Bygone Relic",
+      "file": "Z7/ToBR.lua",
+      "category": "Z7",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToDF",
+      "name": "Tower of Destructive Fever",
+      "file": "Z7/ToDF.lua",
+      "category": "Z7",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToGM",
+      "name": "Tower of Growing Madness",
+      "file": "Z7/ToGM.lua",
+      "category": "Z7",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToCE",
+      "name": "Tower of Cylindrical Extensions",
+      "file": "Z7/ToCE.lua",
+      "category": "Z7",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToWS",
+      "name": "Tower of White Space",
+      "file": "Z7/ToWS.lua",
+      "category": "Z7",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToY",
+      "name": "Tower of Yore",
+      "file": "Z7/ToY.lua",
+      "category": "Z7",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToCMC",
+      "name": "Tower of Cone Mesh Climbing",
+      "file": "Z7/ToCMC.lua",
+      "category": "Z7",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToSaPS",
+      "name": "Tower of Swift and Precise Sections",
+      "file": "Z7/ToSaPS.lua",
+      "category": "Z7",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToUI",
+      "name": "Tower of Uncontrollable Ire",
+      "file": "Z7/ToUI.lua",
+      "category": "Z7",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToFM",
+      "name": "Tower of Fractured Memories",
+      "file": "Z7/ToFM.lua",
+      "category": "Z7",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "ToUA",
+      "name": "Tower of Uncanny Agony",
+      "file": "Z7/ToUA.lua",
+      "category": "Z7",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 14
+    },
+    {
+      "code": "CoACT",
+      "name": "Citadel of A Cruel Tale",
+      "file": "Z7/CoACT.lua",
+      "category": "Z7",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 15
+    },
+    {
+      "code": "Z7TR",
+      "name": "Zone 7 Tower Rush",
+      "file": "Z7/Z7TR.lua",
+      "category": "Z7",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 16
+    },
+    {
+      "code": "CoPE",
+      "name": "Citadel of Pyramid Escapades",
+      "file": "Z8/CoPE.lua",
+      "category": "Z8",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 1
+    },
+    {
+      "code": "ToAE",
+      "name": "Tower of Astral Eclipse",
+      "file": "Z8/ToAE.lua",
+      "category": "Z8",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToDIE",
+      "name": "Tower of Descent Into Exile",
+      "file": "Z8/ToDIE.lua",
+      "category": "Z8",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToABCD",
+      "name": "Tower of Arrantly Bodeful Cavern Depths",
+      "file": "Z9/ToABCD.lua",
+      "category": "Z9",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToDTD",
+      "name": "Tower of Dusk To Dawn",
+      "file": "Z9/ToDTD.lua",
+      "category": "Z9",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToBL",
+      "name": "Tower of Bonus Level",
+      "file": "Z9/ToBL.lua",
+      "category": "Z9",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToSRD",
+      "name": "Tower of Sugar Rush Deluxe",
+      "file": "Z9/ToSRD.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToNN",
+      "name": "Tower of Nothing New",
+      "file": "Z9/ToNN.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToFCB",
+      "name": "Tower of Furious Chicken Brawl",
+      "file": "Z9/ToFCB.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToFU",
+      "name": "Tower of Falling Up",
+      "file": "Z9/ToFU.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToEC",
+      "name": "Tower of Eye Candy",
+      "file": "Z9/ToEC.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToBBBB",
+      "name": "Tower of Big Blocky Beefy Buttons",
+      "file": "Z9/ToBBBB.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToMF",
+      "name": "Tower of Minus Facility",
+      "file": "Z9/ToMF.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToVITE",
+      "name": "Tower of Voyaging Into The Earth",
+      "file": "Z9/ToVITE.lua",
+      "category": "Z9",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToHR",
+      "name": "Tower of Hollow Reformations",
+      "file": "Z9/ToHR.lua",
+      "category": "Z9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "ToPB",
+      "name": "Tower of Panelling Barricades",
+      "file": "Z9/ToPB.lua",
+      "category": "Z9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 13
+    },
+    {
+      "code": "ToWWW",
+      "name": "Tower of Wildly Wacky Wonders",
+      "file": "Z9/ToWWW.lua",
+      "category": "Z9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 14
+    },
+    {
+      "code": "ToEMP",
+      "name": "Tower of Empty Meaningless Patterns",
+      "file": "Z9/ToEMP.lua",
+      "category": "Z9",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 15
+    },
+    {
+      "code": "CoIC",
+      "name": "Citadel of Increasing Claustrophobia",
+      "file": "Z9/CoIC.lua",
+      "category": "Z9",
+      "group": "Citadel",
+      "type": "citadel",
+      "order": 16
+    },
+    {
+      "code": "Z9TR",
+      "name": "Zone 9 Tower Rush",
+      "file": "Z9/Z9TR.lua",
+      "category": "Z9",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 17
+    },
+    {
+      "code": "ToCZ",
+      "name": "Tower of Clandestine Zones",
+      "file": "Z10/ToCZ.lua",
+      "category": "Z10",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToRL",
+      "name": "Tower of Resonant Landscapes",
+      "file": "Z10/ToRL.lua",
+      "category": "Z10",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToIT",
+      "name": "Tower of Interstellar Terrarium",
+      "file": "Z10/ToIT.lua",
+      "category": "Z10",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToVV",
+      "name": "Tower of Valiant Verges",
+      "file": "Z10/ToVV.lua",
+      "category": "Z10",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToRoMW",
+      "name": "Tower of Rain on My World",
+      "file": "Z10/ToRoMW.lua",
+      "category": "Z10",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToTHT",
+      "name": "Tower of Tee Hee Time",
+      "file": "Z10/ToTHT.lua",
+      "category": "Z10",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToBP",
+      "name": "Tower of Blast Power",
+      "file": "Z10/ToBP.lua",
+      "category": "Z10",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToRT",
+      "name": "Tower of Raging Tempest",
+      "file": "Z10/ToRT.lua",
+      "category": "Z10",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "100MC",
+      "name": "100M Celebration",
+      "file": "100MER/100MC.lua",
+      "category": "100MER",
+      "group": "Mini Towers",
+      "type": "mini-tower",
+      "order": 1
+    },
+    {
+      "code": "100MT",
+      "name": "100M Trial",
+      "file": "100MER/100MT.lua",
+      "category": "100MER",
+      "group": "Mini Towers",
+      "type": "mini-tower",
+      "order": 2
+    },
+    {
+      "code": "100MF",
+      "name": "100M Finale",
+      "file": "100MER/100MF.lua",
+      "category": "100MER",
+      "group": "Mini Towers",
+      "type": "mini-tower",
+      "order": 3
+    },
+    {
+      "code": "100MR",
+      "name": "100M Revenge",
+      "file": "100MER/100MR.lua",
+      "category": "100MER",
+      "group": "Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "MS",
+      "name": "Mush Stepl",
+      "file": "B/MS.lua",
+      "category": "B",
+      "group": "Mini Steeple",
+      "type": "mini-steeple",
+      "order": 1
+    },
+    {
+      "code": "SoGE",
+      "name": "Steeple of Grand Eggworks",
+      "file": "EF/SoGE.lua",
+      "category": "EF",
+      "group": "Steeples",
+      "type": "steeple",
+      "order": 1
+    },
+    {
+      "code": "ToT(L)",
+      "name": "Tower of Trouble",
+      "file": "LF/ToT(L).lua",
+      "category": "LF",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToPS(L)",
+      "name": "Tower of Phone Snapping (Legacy)",
+      "file": "LF/ToPS(L).lua",
+      "category": "LF",
+      "group": "Beginner Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToTE(L)",
+      "name": "Tower of Total Exhaustion",
+      "file": "LF/ToTE(L).lua",
+      "category": "LF",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToUP(L)",
+      "name": "Tower of Unfortunate Possibilities",
+      "file": "LF/ToUP(L).lua",
+      "category": "LF",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "ToG(L)",
+      "name": "Tower of Gloom",
+      "file": "LF/ToG(L).lua",
+      "category": "LF",
+      "group": "Intermediate Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToWS(L)",
+      "name": "Tower of Window Shattering",
+      "file": "LF/ToWS(L).lua",
+      "category": "LF",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "ToTU(L)",
+      "name": "Tower of Tearing Up",
+      "file": "LF/ToTU(L).lua",
+      "category": "LF",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 7
+    },
+    {
+      "code": "ToGI(L)",
+      "name": "Tower of Great Infamy",
+      "file": "LF/ToGI(L).lua",
+      "category": "LF",
+      "group": "Advanced Towers",
+      "type": "tower",
+      "order": 8
+    },
+    {
+      "code": "ToMD(L)",
+      "name": "Tower of Mass Destruction",
+      "file": "LF/ToMD(L).lua",
+      "category": "LF",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 9
+    },
+    {
+      "code": "ToST(L)",
+      "name": "Tower of Spicy Torment",
+      "file": "LF/ToST(L).lua",
+      "category": "LF",
+      "group": "Psychologically Unsafe Towers",
+      "type": "tower",
+      "order": 10
+    },
+    {
+      "code": "ToC(L)",
+      "name": "Tower of Confusion (Legacy)",
+      "file": "LF/ToC(L).lua",
+      "category": "LF",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 11
+    },
+    {
+      "code": "ToUB(L)",
+      "name": "Tower of Unending Bamboozles",
+      "file": "LF/ToUB(L).lua",
+      "category": "LF",
+      "group": "Soul Crushing Towers",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "LFTR",
+      "name": "Legacy Fortress Tower Rush",
+      "file": "LF/LFTR.lua",
+      "category": "LF",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 13
+    },
+    {
+      "code": "ToAST(C)",
+      "name": "Tower of Annoyingly Simple Trials (Classic)",
+      "file": "SoM/ToAST(C).lua",
+      "category": "SoM",
+      "group": "Classic Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToA(C)",
+      "name": "Tower of Anger (Classic)",
+      "file": "SoM/ToA(C).lua",
+      "category": "SoM",
+      "group": "Classic Towers",
+      "type": "tower",
+      "order": 2
+    },
+    {
+      "code": "ToFT(C)",
+      "name": "Tower of Funny Thoughts (Classic)",
+      "file": "SoM/ToFT(C).lua",
+      "category": "SoM",
+      "group": "Classic Towers",
+      "type": "tower",
+      "order": 3
+    },
+    {
+      "code": "ToPHaT(C)",
+      "name": "Tower of Peaceful Happiness and Tranquility (Classic)",
+      "file": "SoM/ToPHaT(C).lua",
+      "category": "SoM",
+      "group": "Classic Towers",
+      "type": "tower",
+      "order": 4
+    },
+    {
+      "code": "TT(C)",
+      "name": "Thanos Tower (Classic)",
+      "file": "SoM/TT(C).lua",
+      "category": "SoM",
+      "group": "Classic Towers",
+      "type": "tower",
+      "order": 5
+    },
+    {
+      "code": "ToDC(C)",
+      "name": "Tower of Difficulty Chart (Classic)",
+      "file": "SoM/ToDC(C).lua",
+      "category": "SoM",
+      "group": "Classic Towers",
+      "type": "tower",
+      "order": 6
+    },
+    {
+      "code": "MCoMC",
+      "name": "Mini Citadel of Mini Citadel",
+      "file": "TDH/MCoMC.lua",
+      "category": "TDH",
+      "group": "Mini Citadel",
+      "type": "mini-citadel",
+      "order": 1
+    },
+    {
+      "code": "ToMH",
+      "name": "ToMH",
+      "file": "TEA/ToMH.lua",
+      "category": "TEA",
+      "group": "Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "ToDC",
+      "name": "Tower of Difficulty Chart",
+      "file": "TM/ToDC.lua",
+      "category": "TM",
+      "group": "Towers",
+      "type": "tower",
+      "order": 1
+    },
+    {
+      "code": "CoA",
+      "name": "Citadel of Anger",
+      "file": "XLR1/CoA.lua",
+      "category": "XLR1",
+      "group": "Citadels",
+      "type": "citadel",
+      "order": 1
+    },
+    {
+      "code": "CoIG",
+      "name": "Citadel of Infinity Gauntlet",
+      "file": "XLR1/CoIG.lua",
+      "category": "XLR1",
+      "group": "Citadels",
+      "type": "citadel",
+      "order": 2
+    },
+    {
+      "code": "CoR",
+      "name": "Citadel of Rage",
+      "file": "XLR1/CoR.lua",
+      "category": "XLR1",
+      "group": "Citadels",
+      "type": "citadel",
+      "order": 3
+    },
+    {
+      "code": "CoUC",
+      "name": "Citadel of Utter Confusion",
+      "file": "XLR3/CoUC.lua",
+      "category": "XLR3",
+      "group": "Citadels",
+      "type": "citadel",
+      "order": 1
+    },
+    {
+      "code": "CoIB",
+      "name": "Citadel of Icy Blizzards",
+      "file": "XLR5/CoIB.lua",
+      "category": "XLR5",
+      "group": "Citadels",
+      "type": "citadel",
+      "order": 1
     }
   ]
 }
