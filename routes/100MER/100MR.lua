@@ -253,5 +253,5 @@ workspace.Towers["100MR"].Obby:GetChildren()[184],
 workspace.Towers["100MR"].Obby:GetChildren()[186],
 workspace.Towers["100MR"].Obby:GetChildren()[155],
 workspace.Towers.100MR.WinPad
-        }
+    }
 end
