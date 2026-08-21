@@ -28,6 +28,13 @@
       "categoryType": "realm"
     },
     {
+      "id": "GoE",
+      "name": "Garden of Eeshöl",
+      "world": "The Great Inferno",
+      "categoryType": "subrealm",
+      "parent": "R2"
+    },
+    {
       "id": "R3",
       "name": "Ring 3: Gluttony",
       "world": "The Great Inferno",
@@ -804,6 +811,132 @@
       "name": "Ring 2 Tower Rush",
       "file": "R2/R2TR.json",
       "category": "R2",
+      "group": "Tower Rush",
+      "type": "tower-rush",
+      "order": 14
+    },
+    {
+      "code": "SoBJ",
+      "name": "Steeple of Beginner's Journey",
+      "file": "GoE/SoBJ.lua",
+      "category": "GoE",
+      "group": "Beginner Steeples",
+      "type": "steeple",
+      "order": 1
+    },
+    {
+      "code": "SoDS",
+      "name": "Steeple of Devil's Snare",
+      "file": "GoE/SoDS.lua",
+      "category": "GoE",
+      "group": "Beginner Steeples",
+      "type": "steeple",
+      "order": 2
+    },
+    {
+      "code": "SoIF",
+      "name": "Steeple of Infectious Foliage",
+      "file": "GoE/SoIF.lua",
+      "category": "GoE",
+      "group": "Beginner Steeples",
+      "type": "steeple",
+      "order": 3
+    },
+    {
+      "code": "SoO",
+      "name": "Steeple of Overgrowth",
+      "file": "GoE/SoO.lua",
+      "category": "GoE",
+      "group": "Intermediate Steeples",
+      "type": "steeple",
+      "order": 4
+    },
+    {
+      "code": "SoN",
+      "name": "Steeple of Nightfall",
+      "file": "GoE/SoN.lua",
+      "category": "GoE",
+      "group": "Intermediate Steeples",
+      "type": "steeple",
+      "order": 5
+    },
+    {
+      "code": "SoOA",
+      "name": "Steeple of Overgrown Ascension",
+      "file": "GoE/SoOA.lua",
+      "category": "GoE",
+      "group": "Intermediate Steeples",
+      "type": "steeple",
+      "order": 6
+    },
+    {
+      "code": "SoGP",
+      "name": "Steeple of Greenhouse Placidity",
+      "file": "GoE/SoGP.lua",
+      "category": "GoE",
+      "group": "Intermediate Steeples",
+      "type": "steeple",
+      "order": 7
+    },
+    {
+      "code": "SoFF",
+      "name": "Steeple of Feudal Foliage",
+      "file": "GoE/SoFF.lua",
+      "category": "GoE",
+      "group": "Advanced Steeples",
+      "type": "steeple",
+      "order": 8
+    },
+    {
+      "code": "SoLIQ",
+      "name": "Steeple of Lost In Quiescence",
+      "file": "GoE/SoLIQ.lua",
+      "category": "GoE",
+      "group": "Advanced Steeples",
+      "type": "steeple",
+      "order": 9
+    },
+    {
+      "code": "SoVV",
+      "name": "Steeple of Various Vivariums",
+      "file": "GoE/SoVV.lua",
+      "category": "GoE",
+      "group": "Advanced Steeples",
+      "type": "steeple",
+      "order": 10
+    },
+    {
+      "code": "SoFW",
+      "name": "Steeple of Flourishing Wastelands",
+      "file": "GoE/SoFW.lua",
+      "category": "GoE",
+      "group": "Psychologically Unsafe Steeples/Tower",
+      "type": "steeple",
+      "order": 11
+    },
+    {
+      "code": "ToPA",
+      "name": "Tower of Perilous Antipode",
+      "file": "GoE/ToPA.lua",
+      "category": "GoE",
+      "group": "Psychologically Unsafe Steeples/Tower",
+      "type": "tower",
+      "order": 12
+    },
+    {
+      "code": "SoBA",
+      "name": "Steeple of Buoyant Automations",
+      "file": "GoE/SoBA.lua",
+      "category": "GoE",
+      "group": "Psychologically Unsafe Steeples/Tower",
+      "type": "steeple",
+      "order": 13
+    },
+    {
+      "code": "GoETR",
+      "name": "Garden of Eeshöl Tower Rush",
+      "file": "GoE/GoETR.lua",
+      "category": "GoE",
       "group": "Tower Rush",
       "type": "tower-rush",
       "order": 14
